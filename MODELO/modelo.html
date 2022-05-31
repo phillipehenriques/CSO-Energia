@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+    <title>HOME</title>
+  </head>
+  
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"
+        data-toggle="colapse" data-target="#barra-navegação">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a href="#" class="navbar-brand">LOGO</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="barra-navegação">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="#">HOME</a> </li>
+            <li> <a href="#">EMPRESA</a> </li>
+            <li> <a href="#">CLIENTES</a> </li>
+            <li> <a href="#">PRODUTOS</a> </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              MINHA CONTA <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li> <a href="#">Editar</a> </li>
+                <li> <a href="#">Logout</a> </li>
+              </ul>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1>DIGITE UM TITULO</h1>
+      </div>
+
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+      </button>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="bootstrap/bootstrap/js/bootstrap.min.js" ></script>
+  </body>
+</html>

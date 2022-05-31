@@ -1,0 +1,137 @@
+.marcador {
+	background: #fe9d9d;
+	border:  1px solid #f94646;
+	width: 300px;
+}
+
+.logar {
+	padding-top: 25px;
+}
+
+.texto-placa-home {
+	position: absolute;
+	background-color: rgba(0,0,0,0.2);
+	color:#fff;
+	text-align: center;
+	top: 360px;
+	width: 400px;
+	font-size: 5px;
+	margin-left: 700px;
+
+}
+
+.teste {
+	background-color: lightblue;
+}
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .border {
+      	border-radius: 12px;
+      } 
+
+      <!-- FONTE FUTURA -->
+
+      @font-face {
+        font-family: "Futura Bk BT";
+        src: url(fontes/tt0140m_.ttf);
+      }
+
+      body {
+        font-family: Futura Bk BT;
+      }
+
+      <!-- FONTE FUTURA -->
+
+      .tumb {
+        background-color: red !important;
+        position: center;      
+      }
+
+      .icones {
+        margin-bottom: 30px;
+      }
+
+      .inline {
+        display: inline-block !important;
+        align-content: center;
+      }
+
+      .position {
+        align-content: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      #container {
+        background-color: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: none;
+        margin-bottom: none;
+        gap: 20px;
+      }
+
+      /* EFEITOS EFEITOS EFEITOS EFEITOS EFEITOS*/
+
+      .animate1 {
+        animation-duration: 1.0s;
+        animation-name: animate-fade;
+        animation-delay: 0.0s;
+        animation-fill-mode: backwards;
+      }
+
+      .animate2 {
+        animation-duration: 1.5s;
+        animation-name: animate-fade;
+        animation-delay: 0.0s;
+        animation-fill-mode: backwards;
+      }
+
+      .animate3 {
+        animation-duration: 2.0s;
+        animation-name: animate-fade;
+        animation-delay: 0.0s;
+        animation-fill-mode: backwards;
+      }
+      
+      @keyframes animate-fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+       /* EFEITOS EFEITOS EFEITOS EFEITOS EFEITOS*/
