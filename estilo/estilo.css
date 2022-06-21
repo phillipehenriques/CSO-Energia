@@ -20,6 +20,27 @@
 
 }
 
+.expandir { 
+  transition: 0.7s; 
+}
+.expandir:hover { 
+  transform: scale(0.95); 
+}
+
+.expandir2 { 
+  transition: 0.5s; 
+}
+.expandir2:hover { 
+  transform: scale(1.3); 
+}
+
+.expandir-botao { 
+  transition: 0.2s; 
+}
+.expandir-botao:hover { 
+  transform: scale(0.9); 
+}
+
 .teste {
 	background-color: lightblue;
 }
